@@ -1,11 +1,11 @@
-/// @description Spawns a coin
+/// @description Spawn a coin and wait
 
-// Generate a random value between 32 and 480
-var target_y = random_range(32, 480);
+// Generate a number between 32 and 480
+var point_y = random_range(32, 480);
 
-// Choose between the two coins I have now
+// Generate a random coin
 var coin = choose(obj_Coin, obj_SpecialCoin);
 
-// Spawn a new coin on the Instances layer
-instance_create_layer(300, target_y, "Instances", coin);
+instance_create_layer(300, point_y, "Instances", coin);
+
 alarm[0] = 45;

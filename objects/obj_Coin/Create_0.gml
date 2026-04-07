@@ -1,3 +1,3 @@
-/// @description Sets the coin points
+/// @description Defines the point value
 
 points = 1;

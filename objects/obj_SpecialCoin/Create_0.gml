@@ -1,3 +1,3 @@
-/// @description Gives me a different score
+/// @description Sets the point value
 
-points = 10;
+points = 5;

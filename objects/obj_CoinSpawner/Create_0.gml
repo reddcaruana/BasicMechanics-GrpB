@@ -1,6 +1,5 @@
-/// @description Starts the Alarm
+/// @description Start the Alarm
 
-alarm[0] = 10; // Alarm Number 0
+randomize(); // generates a random seed
 
-// Enforces randomness
-randomize();
+alarm[0] = 10;

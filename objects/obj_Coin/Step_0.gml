@@ -1,3 +1,3 @@
-/// @description Moves to the left
+/// @description Moves the Coin
 
 x -= 2;
